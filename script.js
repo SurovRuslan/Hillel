@@ -62,15 +62,14 @@
 
 // var userName = prompt ('Name?', '');
 // if (userName == (null)) {
-//     alert ("canceled");
+//     alert ('canceled');
 // }
-// else if (userName = ("admin")) {
-//     var password;
-//     prompt('password', '');
-//         if (password = ('molly')) {
+// else if (userName == ('admin')) {
+//     var password = prompt('password', '');
+//         if (password == ('molly')) {
 //             alert ('welcome');
 //         }
-//         else if (password == null) {
+//         else if (password == (null)) {
 //             alert ('canceled');
 //         }
 //         else {
@@ -81,26 +80,46 @@
 //     alert ('i dont know you');
 // };
 
-let number = {
-    a: 4,
-    b: 3,
-    result: 0,
-    sum: function () {
-        this.sumRes = this.a + this.b;
-        return this
-    },
-    minus: function () {
-        this.minRes = this.a - this.b;
-        return this
-    },
-    multyplay: function () {
-        this.multRes = this.a * this.b;
-        return this
-    },
-    showResalt: function () {
-        console.log (this.sumRes, this.minRes, this.multRes);
+// let number = {
+//     a: 4,
+//     b: 3,
+//     result: 0,
+//     sum: function () {
+//         this.sumRes = this.a + this.b;
+//         return this
+//     },
+//     minus: function () {
+//         this.minRes = this.a - this.b;
+//         return this
+//     },
+//     multyplay: function () {
+//         this.multRes = this.a * this.b;
+//         return this
+//     },
+//     showResalt: function () {
+//         console.log (this.sumRes, this.minRes, this.multRes);
+//
+//     },
+// };
+//
+// number.sum().minus().multyplay().showResalt();
+//
+// var result = a + b;
+// a + b < 4 ? alert('malo') : alert ('mnogo');
+// a = 1;
+// b = 2;
 
-    },
-};
 
-number.sum().minus().multyplay().showResalt();
+// for (var i = 0; i <= 10; i++) {
+//     if (i % 2 ==0) {
+//         alert(i);
+//     }
+// }
+
+
+
+for (var i = 2; i <= 10; i++); {
+    if (i % 2 && )
+}
+console.log(i);
+
