@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+main{
+    background: yellow;
+}
 
 a{
     text-decoration: none;
@@ -32,7 +35,7 @@ body{
 nav{
     margin: auto;
     width: 800px;
-    height: 100px;
+    height: 50px;
 }
 
 .topnav{
@@ -54,6 +57,28 @@ nav{
 .topnav.icon{
     display: none;
 }
+.mw-100{
+    max-width: 100%;
+}
+.advantages_container{
+    display: inline-flex;
+    justify-content: center;
+}
+.advantages{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.advantages_item{
+    width: 200%;
+}
+
+
+
 @media screen and (max-width: 768px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -81,5 +106,23 @@ nav{
         display: block;
         text-align: left;
     }
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer a{
+    color: deepskyblue;
+    font-size: 15px;
+    margin-left: 10px;
+}
+footer p{
+    color: deepskyblue;
 }
 
