@@ -102,7 +102,7 @@
 //     },
 // };
 //
-// number.sum().minus().multyplay().showResalt();
+// console.log (number.sum().minus().multyplay().showResalt());
 //
 // var result = a + b;
 // a + b < 4 ? alert('malo') : alert ('mnogo');
@@ -116,10 +116,8 @@
 //     }
 // }
 
+console.log("qwerty")
 
 
-for (var i = 2; i <= 10; i++); {
-    if (i % 2 && )
-}
-console.log(i);
+
 

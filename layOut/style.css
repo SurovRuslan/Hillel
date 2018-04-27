@@ -58,7 +58,7 @@ nav{
     display: none;
 }
 .mw-100{
-    max-width: 100%;
+    width: 100%;
 }
 .advantages_container{
     display: inline-flex;
@@ -83,7 +83,7 @@ nav{
     .topnav a:not(:first-child) {
         display: none;
     }
-    .topnav.icon {
+    .topnav a.icon {
         float: right;
         margin-top: -17px;
         display: block;
@@ -114,6 +114,7 @@ footer{
     background: white;
     margin: 0 auto;
     text-align: center;
+    position: absolute;
     padding-top: 30px;
 }
 
